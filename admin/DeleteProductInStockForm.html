@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理端功能 - 刪除倉庫貨品資料作業</title>
+</head>
+<body>
+<p>管理端功能 - 刪除倉庫貨品資料作業</p>
+<hr>
+<div >
+<fieldset>
+<legend>刪除倉庫貨品資料表單</legend>
+<form method="post" action="submitDeleteProductInStock.py">
+貨品編號：<input type="hidden" name='product_id' value='###product_id###'>###product_id###<br>
+貨品名稱：<input type="hidden" name='name' value='###name###'>###name###<br>
+　　單價：<input type="hidden" name='price' value='###price###'>###price###<br>
+庫存數量：<input type="hidden" name='quantity' value='###quantity###'>###quantity###<br>
+<input type="submit" value= "確認刪除">
+</form>
+</fieldset>
+</div>
+<br><a href='admin.py'>回管理端功能表</a>
+</body>
+</html>
